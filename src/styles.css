@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body{
+    font-family:'Fredoka','sans-serif' ;
+    background-color: aquamarine !important;
+}
+
+ul{
+    margin-top: 18px;
+}
+.contact-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 12px;
+    text-align: center;
+}
+.contact-img-details{
+    width: 150px;
+    border-radius: 50%;
+}
+select{
+    width: 202px;
+    height: 30px;
+}

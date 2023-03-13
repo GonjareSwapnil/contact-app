@@ -1,0 +1,57 @@
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col">
+            <p class="h3 fw-bold text-primary"><i class="fa fa-eye"></i> View Contact </p>
+            <p class="fst-italic "> This is a dummy contain :Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Iure vel est alias incidunt, maxime non rerum
+                distinctio
+                numquam earum a dolorum tenetur omnis? Voluptates et, molestias sequi voluptatum cum nemo.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Condition Based Loading -->
+<div *ngIf="loading">
+    <app-spinner></app-spinner>
+</div>
+
+<!--Display Error Messages -->
+<div *ngIf="!loading && errorMessage ">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="h4 text-danger fw-bold">{{errorMessage}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <pre>{{ contact | json }}</pre> -->
+<!-- View Contact Details -->
+<div *ngIf="!loading && isNotEmpty()" class="container">
+    <div class="row align-items-center">
+        <div class="col-sm-4 ">
+            <img [src]="contact.photo" class="contact-img-details" alt="user">
+        </div>
+        <div class="col-sm-6">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-success">Name: <span class="fw-bold">{{contact.name}}</span></li>
+                <li class="list-group-item list-group-item-success">Email: <span
+                        class="fw-bold">{{contact.email}}</span>
+                </li>
+                <li class="list-group-item list-group-item-success">Company: <span class="fw-bold">{{contact.company}}</span></li>
+                <li class="list-group-item list-group-item-success">Tital: <span class="fw-bold">{{contact.title}}</span></li>
+                <li class="list-group-item list-group-item-success">Group Name: <span class="fw-bold">{{group.name}}</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- <pre>{{contact | json }}</pre> -->
+
+    <div class="row mt-2">
+        <div class="col">
+            <a routerLink="/" class="btn btn-warning">&nbsp;<i class="fa-fa-arrow-alt-circle-left"></i> Go Back</a>
+        </div>
+    </div>
+</div>

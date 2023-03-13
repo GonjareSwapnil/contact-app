@@ -1,0 +1,62 @@
+{
+  "contact": [
+    {
+      "id": "tc1",
+      "name": "Bhaskar cccckkkkkk",
+      "company": "L&T bb",
+      "email": "bhasu2@gmail.com",
+      "title": "group head",
+      "photo": "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2Zlc3Npb25hbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "groupId": "1"
+    },
+    {
+      "id": "tc2",
+      "name": "Swapnil",
+      "company": "Tcs",
+      "email": "swa222@gmail.com",
+      "title": "IT",
+      "photo": "https://pps.whatsapp.net/v/t61.24694-24/317654473_576410617639175_2337312770994148451_n.jpg?ccb=11-4&oh=01_AdQm0B1AWs7IxJD34nmdwuuP8_DY4CAN1BrhP4Tw5iRxig&oe=640C0A72",
+      "groupId": "2"
+    },
+    {
+      "id": "tc4",
+      "name": "Shital",
+      "company": "capgemini",
+      "email": "tarale02@gmail.com",
+      "title": "junier software engineer",
+      "photo": "blob:https://web.whatsapp.com/712732df-1298-445f-b478-af85eef1c0d9",
+      "groupId": "4"
+    },
+    {
+      "name": "swapnil",
+      "photo": "dssss",
+      "email": "bhasu2@gmail.com",
+      "company": "L&T",
+      "title": "kk",
+      "groupId": "1",
+      "id": "5zhsPZL"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Collegua"
+    },
+    {
+      "id": "2",
+      "name": "Family"
+    },
+    {
+      "id": "3",
+      "name": "Friend"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "",
+      "name": "Social"
+    }
+  ]
+}
